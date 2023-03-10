@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Media Queries */
+
+@media only screen and (min-width: 991px) {
+    #BlueAndWhiteBloc {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #BlueBloc {
+        display: flex;
+    background-color: #33c1cf;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    width: 100%;
+
+    }
+    #BlueBlocText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 60%;
+    }
+    #TexteBlueBloc1 {
+        margin-top: 20px;
+        color: #ffffff;
+        
+        line-height: 24px;
+        text-align: start;
+        width: 270px;
+    }
+}
+
+/* Section couleurs */
+
+#ColoredSection {
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#BlueBloc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #33c1cf;
+    text-align: center;
+    
+}
+
+#BlueBlocText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+#TexteBlueBloc1 {
+    margin-top: 20px;
+    color: #ffffff;
+    
+    line-height: 24px;
+    text-align: center;
+    width: 375px;
+}
+
+
+
+#BlueBloc> #BlueBlocText> .TexteBlueBloc {
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.TexteBlueBloc {
+    display: flex;
+    justify-content: center;
+}
+
+.LineBlueBloc {
+    width: 270px;
+    height: 1px;
+    background-color: rgba(250, 250, 250, 0.5);
+    margin-top: 20px;
+}
+
+
+
+.Filter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    color: white;
+    align-items: flex-start;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.OrangeFilter {
+    color: rgb(239, 143, 18);
+}
+.WhiteFilter {
+    color: rgb(255, 255, 255);
+}
+
+#WhiteBloc {
+    height: 1554px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#PremiereImageWhiteBloc {
+    background-image: url(/assets/images/portfolio_item_01.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;display: flex;
+    height: 20%;
+}
+
+#GroupImage {
+    height: 1554px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px 0 30px 0;
+}
+
+#SecondeImageWhiteBloc {
+    background-image: url(/assets/images/portfolio_item_02.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+}
+
+#TroisiemeImageWhiteBloc {
+    background-image: url(/assets/images/portfolio_item_03.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+}
+
+#QuatriemeImageWhiteBloc {
+    background-image: url(/assets/images/portfolio_item_04.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+}
+
+#CinquiemeImageWhiteBloc {
+    background-image: url(/assets/images/portfolio_item_05.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+}
+
+#SixiemeImageWhiteBloc {
+    background-image: url(/assets/images/portfolio_item_06.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+}
+
+#BlueAndWhiteBloc {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#YellowBloc {
+    background-color: #f7c552;
+    width: 100%;
+    height: 493px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#WhiteBlocInYellow {
+    background-color: white;
+    display: flex;
+    width: 92%;
+    border-radius: 2%;
+    align-items: center;
+}
+
+#WhiteBlocInYellow>p {
+    font-size: 16px;
+    color: #9a9a9a;
+    font-style: italic;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}

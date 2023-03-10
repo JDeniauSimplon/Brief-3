@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Media Queries */
+
+@media only screen and (min-width: 769px) {
+    #ItemSection {
+        width: 100%;
+        background-image: url(/assets/images/about-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-Evenly;
+        align-items: center;
+    }
+
+    #BlocIcone {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .LineSection {
+        width: 90%;
+        height: 1px;
+        background-color: rgba(250, 250, 250, 0.5);
+    }
+}
+
+/*Section*/
+
+#ItemSection {
+    width: 100%;
+    background-image: url(/assets/images/about-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-Evenly;
+    align-items: center;
+    padding: 175px 0px;
+    background-repeat: no-repeat;
+}
+
+#BlocIcone {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.LineSection {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(250, 250, 250, 0.5);
+}
+.Icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.Icone1 {
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    line-height: 104px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #f7c552;
+    background-image: url(/assets/images/service_icon_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Icone2 {
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    line-height: 104px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #f7c552;
+    background-image: url(/assets/images/service_icon_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Icone3 {
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    line-height: 104px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #f7c552;
+    background-image: url(/assets/images/service_icon_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Icone4 {
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    line-height: 104px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #f7c552;
+    background-image: url(/assets/images/service_icon_04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.IconeText {
+    text-align: center;
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 30px 0 30px;
+    padding-bottom: 40px;
+}
+
+.LineBlog {
+    width: 270px;
+    height: 1px;
+    background-color: rgba(250, 250, 250, 0.5);
+    display: flex;
+    margin: 20px;
+}
+
+.BlueButton {
+    background-color: #33c1cf;
+    font-size: 13px;
+    padding: 12px 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 500px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#GreyBlock>.PrimaryBlueButton {
+    margin-top: 30px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Media Queries */
+
+@media only screen and (min-width: 769px) {
+    #Menu {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+}
+@media only screen and (max-width: 769px) {
+    #Menu {
+        display: none;
+    }
+}
+
+
+
+/*Header(sticky bar)*/
+
+#Header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background: none;
+    height: 80px;
+    line-height: 40px;
+    justify-content: space-between;
+}
+
+#Header > h2 > a {
+    display: flex;
+    align-items: center;
+}
+
+/*Navbar*/
+
+#Menu > ul >li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+#Menu>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+    padding-right: 35px;
+}
+
+/*Logo Tinker*/
+
+.T {
+    color: #f7c552;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-size: 32px; 
+}
+
+.Inker {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+

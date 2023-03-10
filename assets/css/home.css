@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Media Queries */
+
+@media only screen and (min-width: 769px) {
+    #Home {
+        width: 100%;
+        background-image: url(/assets/images/banner_bg.jpg);
+        background-position: center;
+        background-size:cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+
+/*Page Un(background)*/
+
+#Home {
+    width: 100%;
+    background-image: url(/assets/images/banner_bg.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#TexteHome {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 50px;
+    line-height: 25px;
+    padding: 0 14% 0 14%;
+    text-align: center;
+}
+
+#HomeBloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Tinker {
+    font-size: 34px;
+    color: #f89624;
+}
+
+#HTML5 {
+    font-size: 36px;
+    color: #33c1cf;
+}
+
+#Template {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Button {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 14px 17px;
+    color: #121212;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 22px;
+}
